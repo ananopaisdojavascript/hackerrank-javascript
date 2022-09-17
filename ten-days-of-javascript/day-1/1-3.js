@@ -1,12 +1,12 @@
 function main() {
     // Write your code here. Read input using 'readLine()' and print output using 'console.log()'.
     const PI = Math.PI;
-    const radius = parseInt(readLine());
+    let radius = parseInt(readLine());
     // Print the area of the circle:
-    const area = PI * Math.pow(radius, 2)
+    let area = PI * Math.pow(radius, 2)
     console.log(area);
     // Print the perimeter of the circle:
-    const perimeter = 2 * (PI * radius);
+    let perimeter = 2 * PI * radius;
     console.log(perimeter);
     try {    
         // Attempt to redefine the value of constant variable PI
